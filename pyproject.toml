@@ -1,0 +1,30 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "data-science-good-practices-demo"
+description = "Dependency locks, nested CV, SHAP"
+authors = [
+    {name = "Everest Law",email = "everestl@alumni.usc.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "catboost (==1.2.8)",
+    "duckdb (==1.3.2)",
+    "google-cloud-storage (==3.2.0)",
+    "ibis-framework[bigquery] (==10.8.0)",
+    "ipykernel (==6.29.5)",
+    "nbformat (==5.10.4)",
+    "optuna (==4.4.0)",
+    "pandas (==2.3.1)",
+    "plotly (==6.1.2)",
+    "numpy (>=2.2.6,<3.0.0)",
+    "scikit-learn (==1.7.1)",
+    "seaborn (==0.13.2)",
+    "shap (==0.48.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
