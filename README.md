@@ -6,10 +6,10 @@
 
 This project demonstrates a modern, end-to-end data science workflow using publicly available datasets. The goal is to build a robust and understandable model while highlighting key data science skills.
 
-## Key Features & Skills Demonstrated
+## Key Skills Demonstrated
 In addition to LLM-assisted coding———
 
-*  **Reproducibility through [Poetry](https://python-poetry.org/):** Locked down all dependencies to ensure consistent builds. Using poetry also allows us to easily add/remove packages from the locked dependencies.
+*  **Reproducibility through [Poetry](https://python-poetry.org/):** Locked down all dependencies to ensure consistent builds. Poetry also allows us to easily add/update/remove dependencies.
 
 *   **Hyperparameter Optimization with [Optuna](https://optuna.org/):** Tuned the CatBoostClassifier hyperparameters using Optuna's [TPE sampler](https://hub.optuna.org/samplers/tpe_tutorial/), which is much more efficient than exhaustive grid search.
 
@@ -17,7 +17,7 @@ In addition to LLM-assisted coding———
 *   **Best Practices in Common Libraries**  Enabled [copy_on_write](https://pandas.pydata.org/docs/user_guide/copy_on_write.html#copy-on-write) in pandas to reduce memory footprint, used [pyarrow](https://pandas.pydata.org/docs/user_guide/pyarrow.html) wherever possible ...
 
 
-## Project Details
+## Project Tech Stack
 
 *   **Programming Language:** Python 3.12
 *   **Libraries:** pandas, matplotlib, plotly, optuna, seaborn, shap, catboost, scikit-learn
@@ -41,7 +41,6 @@ In addition to LLM-assisted coding———
 
 
 ## Further Exploration
-
-*   Experiment with feature engineering techniques.
+*   Experiment with feature selection and engineering techniques.
 *   Try different machine learning algorithms.
 *   Deploy the model to e.g., [GCP Cloud Run](https://cloud.google.com/run?hl=en) for scalability.
